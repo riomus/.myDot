@@ -1,6 +1,6 @@
 URxvt*foreground: #00ff15
 URxvt*depth: 32
-URxvt*background: rgba:0000/0000/0000/3200
+URxvt*background: rgba:0000/0000/0000/c800
 
 ! Urxvt fonts
 URxvt*font:            xft:Ubuntu Mono derivative Powerline:size=12
