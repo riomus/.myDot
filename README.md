@@ -1,4 +1,4 @@
 .myDot
 ======
 
-.myDor
+My dotFiles from arch 
