@@ -1,0 +1,1 @@
+/home/riomus/.zshrc

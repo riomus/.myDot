@@ -1,0 +1,1 @@
+/home/riomus/.i3
