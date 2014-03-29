@@ -176,5 +176,5 @@ exec feh --bg-scale /home/riomus/Images/bg.jpg
 exec xbindkeys
 exec dropboxd
 exec pulseaudio --start
-exec compton  -cb --config /home/riomus/.config/compton.conf &
+exec compton  -cb --config /home/riomus/.config/compton.conf
 

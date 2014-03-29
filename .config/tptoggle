@@ -1,0 +1,1 @@
+/usr/bin/synclient TouchpadOff=`expr $(synclient -l | grep TouchpadOff | grep -o .$) = 0`
