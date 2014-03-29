@@ -153,6 +153,7 @@ bar {
 background #303030
 focused_workspace #eeeeee #606060 #ffffff
 }
+font pango:DejaVu Sans Mono, Icons 8
 }
 
 new_window 1pixel

@@ -9,5 +9,5 @@ URxvt*italicFont:      xft:Ubuntu Mono derivative Powerline::italic:size=12
 URxvt*boldItalicFont:  xft:Ubuntu Mono derivative Powerline::bolditalic:size=12
 URxvt.scrollstyle:plain
 
-Xcursor.theme: Premium
+Xcursor.theme: Vanilla-DMZ-AA
 Xcursor.size: 8
