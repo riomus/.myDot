@@ -63,6 +63,7 @@ bindsym $mod+Shift+Right move right
 # split in horizontal orientation
 bindsym $mod+h split h
 
+bindsym $mod+o exec . /home/riomus/.config/screens.sh
 # split in vertical orientation
 bindsym $mod+v split v
 
@@ -109,7 +110,7 @@ bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
-bindsym $mod+p exec i3lock --image /home/riomus/Images/bg.png
+bindsym $mod+p exec scrot /tmp/screen_locked.png &&  i3lock --image /tmp/screen_locked.png
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -120,8 +121,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
-        # These bindings trigger as soon as you enter the resize mode
-
+        # These bindings trigger as soon as you enter the resize m
         # Pressing left will shrink the window’s width.
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
@@ -171,6 +171,7 @@ exec --no-startup-id i3-msg 'workspace 2:Term; exec /usr/bin/urxvt;exec /usr/bin
 
 workspace '3:IDE' output LVDS1
 
+workspace 9 output HDMI1
 
 exec feh --bg-scale /home/riomus/Images/bg.jpg
 exec xbindkeys
