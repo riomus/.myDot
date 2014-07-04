@@ -1,0 +1,4 @@
+myDot
+=====
+
+.myDot
