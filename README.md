@@ -1,4 +1,4 @@
 myDot
 =====
 
-.myDot  configuration files
+.myDot 
