@@ -1,4 +1,4 @@
 myDot
 =====
 
-.myDot 
+.myDot config
